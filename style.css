@@ -1,0 +1,164 @@
+.parent{
+    height: fit-content;
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.head{
+    display: inline;
+    width: 60%;
+    text-align: left;
+    font-size: 4rem;
+    text-shadow: 3px 3px 4px rgb(168, 156, 156);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#icon1{
+    color: rgb(247, 106, 12);
+    font-size: 2rem;
+    margin-left: 15rem;
+    transition: transform 0.1s;
+    
+}
+#icon1:hover{
+    transform: scale(1.2);
+}
+.div1{
+    font-size: 1.6rem;
+    transition: transform 0.1s;
+}
+.div1:hover{
+    transform: scale(1.2);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.card{
+    border: red solid 1.3px;
+    padding: 30px 20px 160px 20px;
+    width: 175px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 12px rgb(168, 167, 167);
+    font-size: 25px;
+    transition: transform 0.1s;
+}
+.card1:hover{
+    transform: scale(1.02);
+}
+.header{
+    color: tomato;
+}
+.checkbox{
+    height: 19px;
+    width: 23px;
+    vertical-align: -4px;
+}
+@media screen and  (max-width:360px) {
+    .head{
+        font-size: 40px;
+    }
+    .parent{
+        margin-top: 30px;
+        width: 90%;
+    }
+    #icon1{
+        position: absolute;
+        top: 2.8rem;
+        left: 1rem;
+    }
+    .div1{
+        display: none;
+    }
+    .red{
+        display: none;
+    }
+    .header{
+        color: rgb(112, 111, 111);
+        font-weight: lighter;
+    }
+    .card{
+        width: 16.5rem;
+        padding: 20px;
+        border-radius: 6px;
+        box-shadow: 3px 3px 5px rgb(189, 187, 187);
+        border: 0.4px solid tomato;
+        text-align: left;
+    }
+}
+@media screen and (min-width:375px) and (max-width:450px) {
+    .head{
+        font-size: 45px;
+    }
+    .parent{
+        margin-top: 40px;
+        width: 90%;
+    }
+    #icon1{
+        position: absolute;
+        top: 3.8rem;
+        left: 3.5rem;
+    }
+    .div1{
+        display: none;
+    }
+    .red{
+        display: none;
+    }
+    .header{
+        color: rgb(112, 111, 111);
+        font-weight: lighter;
+    }
+    .card{
+        font-size: 30px;
+        width: 18rem;
+        padding: 25px;
+        border-radius: 6px;
+        box-shadow: 3px 3px 5px rgb(189, 187, 187);
+        border: 0.4px solid tomato;
+        text-align: left;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px) {
+    .head{
+        font-size: 60px;
+    }
+    .parent{
+        margin-top: 40px;
+        width: 90%;
+    }
+    .div1{
+        margin-left: 14rem;
+    }
+    #icon1{
+        position: absolute;
+        top: 5rem;
+        left: 16.6rem;
+    }
+    .card{
+        width: 16.5rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1050px) {
+    .parent{
+        margin-top: 6rem;
+        width: 90%;
+    }
+    .head{
+        font-size: 90px;
+    }
+    .container{
+        margin-top: 60px;
+        gap: 4rem;
+    }
+    .card{
+        width: 13rem;
+    }
+}

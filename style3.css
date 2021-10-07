@@ -1,0 +1,88 @@
+.blured{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.box{
+    z-index: 1;
+    position: absolute;
+    border: solid 1.4px red;
+    color: tomato;
+    background-color: white;
+    text-align: center;
+    left: 24em;
+    top: 13em;
+    width: 38%;
+    height: 40%;
+    border-radius: 18px;
+    box-shadow: 8px 8px 12px rgb(212, 184, 184);
+}
+#text{
+    border: tomato 1.5px solid;
+    border-radius: 12px;
+    color: tomato;
+    width: 25em;
+    height: 3em;
+}
+#bt{
+    width: 6em;
+    height: 2.6em;
+    border: solid 1px tomato;
+    color:white;
+    background: tomato;
+    border-radius: 17px;
+    margin-top: 20px;
+}
+#icon{
+    position: absolute;
+    font-size: 36px;
+    left: 10px;
+    top: 10px;
+    color: tomato;
+}
+@media screen and (max-width:550px) {
+    .box{
+        left: 1rem;
+        width: 90%;
+        top: 11rem;
+        height: 15rem;
+    }
+    #text{
+        width: 80%;
+    }
+    #icon{
+        left: 5px;
+        font-size: 34px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:950px) {
+    .box{
+        font-size: 23px;
+        left: 5rem;
+        width: 80%;
+        top: 19rem;
+        height: 18rem;
+    }
+    #text{
+        width: 80%;
+    }
+    #icon{
+        left: 5px;
+        font-size: 44px;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1150px) {
+    .box{
+        font-size: 26px;
+        left: 8rem;
+        width: 75%;
+        top: 25rem;
+        height: 18rem;
+    }
+    #text{
+        width: 80%;
+    }
+    #icon{
+        left: 5px;
+        font-size: 54px;
+    }
+}
