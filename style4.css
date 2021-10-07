@@ -23,6 +23,9 @@
     left: 10px;
     top: 10px;
 }
+#icon3:hover{
+    transform: scale(1.2);
+}
 #icon4{
     position: absolute;
     right: 10px;

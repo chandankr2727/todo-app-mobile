@@ -27,10 +27,6 @@ a{
 }
 .div1{
     font-size: 1.6rem;
-    transition: transform 0.1s;
-}
-.div1:hover{
-    transform: scale(1.2);
 }
 .container{
     display: flex;
@@ -49,7 +45,7 @@ a{
     font-size: 25px;
     transition: transform 0.1s;
 }
-.card1:hover{
+.card:hover{
     transform: scale(1.02);
 }
 .header{

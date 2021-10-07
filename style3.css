@@ -39,6 +39,9 @@
     top: 10px;
     color: tomato;
 }
+#icon:hover{
+    transform: scale(1.1);
+}
 @media screen and (max-width:550px) {
     .box{
         left: 1rem;
