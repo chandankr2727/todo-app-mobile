@@ -107,25 +107,25 @@
         display: none;
     }
     #heading{
-        width: 15rem;
-        font-size: 15px;
+        width: 22rem;
+        font-size: 22px;
         padding: 0%;
-        left: 4rem;
+        left: 5.3rem;
         top: 1.4rem;
     }
     .back{
         display: none;
     }
     #fas1{
-        font-size: 30px;
-        left: 1rem;
-        top: 3.2rem;
+        font-size: 37px;
+        left: 1.8rem;
+        top: 4.4rem;
     }
     .card{
         font-size: 20px;
-        width: 70%;
+        width: 88%;
         top: 10rem;
-        left: 1rem;
+        left: 3rem;
         height: 17rem;
         margin: 0%;
     }
