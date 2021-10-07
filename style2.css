@@ -126,9 +126,11 @@
         width: 85%;
         top: 10rem;
         left: 1.5rem;
-        height: 17rem;
+        height: 20rem;
         margin: 0%;
         padding-top: 10px;
+        border-radius: 12px;
+        box-shadow: 6px 6px 7px rgb(211, 194, 194); 
     }
     #h2{
         top: 2rem;
@@ -179,7 +181,7 @@
     .card{
         font-size: 46px;
         width: 70%;
-        height: 10rem;
+        height: 12rem;
         left: 7rem;
         margin: 0%;
         top: 21rem;
