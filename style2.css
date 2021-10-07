@@ -107,8 +107,8 @@
         display: none;
     }
     #heading{
-        width: 22rem;
-        font-size: 22px;
+        width: 17rem;
+        font-size: 20px;
         padding: 0%;
         left: 5.3rem;
         top: 1.4rem;
@@ -119,19 +119,20 @@
     #fas1{
         font-size: 37px;
         left: 1.8rem;
-        top: 4.4rem;
+        top: 4rem;
     }
     .card{
         font-size: 20px;
         width: 85%;
         top: 10rem;
-        left: 2rem;
+        left: 1.5rem;
         height: 17rem;
         margin: 0%;
+        padding-top: 10px;
     }
     #h2{
         top: 2rem;
-        width: 13rem;
+        width: 11.6rem;
     }
     .head{
         font-size: 33px;
