@@ -5,8 +5,7 @@
     margin-top: 4rem;
 }
 .head{
-    display: inline;
-    width: 60%;
+    position: relative;
     text-align: left;
     font-size: 4rem;
     text-shadow: 3px 3px 4px rgb(168, 156, 156);
@@ -16,9 +15,11 @@ a{
     color: black;
 }
 #icon1{
+    position: absolute;
+    right: 7rem;
+    top: 4rem;
     color: rgb(247, 106, 12);
     font-size: 2rem;
-    margin-left: 15rem;
     transition: transform 0.1s;
     
 }
@@ -26,6 +27,9 @@ a{
     transform: scale(1.2);
 }
 .div1{
+    position: absolute;
+    right: 5px;
+    top: 4rem;
     font-size: 1.6rem;
 }
 .container{
@@ -65,9 +69,8 @@ a{
         width: 90%;
     }
     #icon1{
-        position: absolute;
-        top: 2.8rem;
-        left: 1rem;
+        right: 10px;
+        top: 20px;
     }
     .div1{
         display: none;
@@ -97,9 +100,8 @@ a{
         width: 90%;
     }
     #icon1{
-        position: absolute;
-        top: 3.8rem;
-        left: 3.5rem;
+        right: 10px;
+        top: 20px;
     }
     .div1{
         display: none;
@@ -130,12 +132,11 @@ a{
         width: 90%;
     }
     .div1{
-        margin-left: 14rem;
+        right: 10px;
+        top: 2rem;
     }
     #icon1{
-        position: absolute;
-        top: 5rem;
-        left: 16.6rem;
+        top: 2rem;
     }
     .card{
         width: 16.5rem;
